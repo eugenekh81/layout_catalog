@@ -4,9 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body>
-    <h1>Catalog</h1>
+    <header class="header">
+      <div class="logo">
+        <img src="./images/logo.png" alt="Logo Moyo" />
+      </div>
+      <div class="nav">
+        <ul class="nav_-list">
+          <li class="nav__item">Apple</li>
+          <li class="nav__item">Samsung</li>
+          <li class="nav__item">Смарфоны и телефоны</li>
+          <li class="nav__item">Ноутбуки и компьютеры</li>
+          <li class="nav__item">Гаджеты</li>
+          <li class="nav__item">Планшеты</li>
+          <li class="nav__item">ФОТО</li>
+          <li class="nav__item">ВИДЕО</li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="catalog">
+        <div class="card">
+          <img src="../src/images/imac.jpeg" alt="Monoblock Apple A1419 imac" />
+          <h2 class="card__title">
+            Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)
+          </h2>
+          <p class="card__code">Код товара: 195434</p>
+          <div class="rating">
+            <div class="rating__star star__active"></div>
+            <div class="rating__star star__active"></div>
+            <div class="rating__star star__active"></div>
+            <div class="rating__star star__active"></div>
+            <div class="rating__star star__inactive"></div>
+          </div>
+          <div class="card__price">
+            <p class="price__text"></p>
+            <p class="price__cost"></p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

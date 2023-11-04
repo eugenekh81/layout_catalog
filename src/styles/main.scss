@@ -1,3 +1,15 @@
-body {
-  margin: 0;
+
+:root {
+  --blue-accent: #00acdc;
+}
+:root {
+  --main-accent: #060b35;
+}
+:root {
+  --secondary: #616070;
+}
+
+
+.header {
+  display: flex;
 }
