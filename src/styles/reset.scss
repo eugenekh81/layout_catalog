@@ -1,6 +1,11 @@
-body, ul {
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul {
   padding: 0;
-   margin: 0;
+  margin: 0;
 }
 
 ul,
