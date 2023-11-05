@@ -49,6 +49,7 @@
 
 .is-active {
   position: relative;
+  color: var(--blue-accent);
 }
 
 .is-active::after {
