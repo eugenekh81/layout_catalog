@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
-  width: 1024px;
-  height: 60px;
+
   margin: 0 auto;
+  padding: 0 50px;
+
+  height: 60px;
+
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -28,12 +30,16 @@
 .nav__link {
   display: flex;
   align-items: center;
+
   color: var(--main-accent);
+
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 500;
+
   height: 60px;
+
   transition: 0.3s;
 }
 
@@ -41,23 +47,18 @@
   color: var(--blue-accent);
 }
 
-.link--active {
- color: var(--blue-accent);
-}
-
 .is-active {
   position: relative;
 }
 
 .is-active::after {
-  display: block;
   content: "";
+
   position: absolute;
+
   width: 100%;
   height: 4px;
+
   background-color: var(--blue-accent);
   bottom: 0;
-
-  // border-bottom: 4px solid var(--blue-accent);
-  // border-radius: 2px;
 }
