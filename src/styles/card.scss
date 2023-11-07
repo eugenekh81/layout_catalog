@@ -2,7 +2,7 @@
   width: 200px;
   border-radius: 5px;
   border: 1px solid #f3f3f3;
-  padding: 32px 16px 16px 16px;
+  padding: 32px 16px 16px;
 
   &__image {
     display: flex;
@@ -46,6 +46,7 @@
 
     transition: 0.3s;
   }
+
   &:hover .card__button {
     background-color: white;
     color: $blue-accent;
