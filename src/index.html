@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,41 +14,47 @@
 
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
-  <body class="body">
-    <div class="site__catalog">
-      <header class="header">
-        <a href="#" class="logo__link"
-          ><img class="logo__image" src="./images/logo.png" alt="Logo Moyo"
-        /></a>
-        <div class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link is-active" href="./index-bigger.html"
-                >Apple</a
-              >
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#">Samsung</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Смарфоны и телефоны</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#" data-qa="nav-hover"
-                >Ноутбуки и компьютеры</a
-              >
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#">Гаджеты</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Планшеты</a>
-            </li>
-            <li class="nav__item"><a class="nav__link" href="#">ФОТО</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">ВИДЕО</a></li>
-          </ul>
+  <body class="page__body">
+    <header class="page__header header">
+      <div class="container">
+        <div class="header__content">
+          <a href="#" class="logo__link"
+            ><img class="logo__image" src="./images/logo.png" alt="Logo Moyo"
+          /></a>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link is-active" href="#"> Apple </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Samsung </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Смарфоны и телефоны</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#" data-qa="nav-hover">
+                  Ноутбуки и компьютеры
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Гаджеты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Планшеты</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">ФОТО</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">ВИДЕО</a></li>
+            </ul>
+          </div>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <main class="main">
-        <div class="card">
-          <div class="card__catalog" data-qa="card">
+    <main class="main">
+      <div class="container">
+        <div class="catalog">
+          <div class="card" data-qa="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -59,7 +65,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -68,14 +74,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" data-qa="card-hover" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -86,7 +92,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -95,14 +101,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -113,7 +119,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -122,14 +128,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -140,7 +146,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -149,14 +155,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -167,7 +173,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -176,14 +182,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -194,7 +200,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -203,14 +209,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -221,7 +227,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -230,14 +236,14 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
 
             <a class="card__button" href="#">Купить</a>
           </div>
-          <div class="card__catalog">
+          <div class="card">
             <img
               class="card__image"
               src="../src/images/imac.jpeg"
@@ -248,7 +254,7 @@
             </h2>
             <p class="card__code">Код товара: 195434</p>
             <div class="rating">
-              <div class="stars">
+              <div class="rating__stars">
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
                 <div class="rating__star star__active"></div>
@@ -257,7 +263,7 @@
               </div>
               <div class="reviewes">Отзывов: 5</div>
             </div>
-            <div class="card__price">
+            <div class="price">
               <p class="price__text">Цена:</p>
               <p class="price__cost">69 999 грн</p>
             </div>
@@ -265,7 +271,7 @@
             <a class="card__button" href="#">Купить</a>
           </div>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   </body>
 </html>

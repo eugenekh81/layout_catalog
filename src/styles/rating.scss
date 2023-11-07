@@ -1,0 +1,35 @@
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  margin-bottom: 24px;
+
+  &__stars {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__star {
+    display: flex;
+
+    width: 16px;
+    height: 16px;
+
+    background-repeat: no-repeat;
+  }
+}
+
+.star__active {
+  background-image: url(/images/star-active.svg);
+}
+
+.star__inactive {
+  background-image: url(/images/star.svg);
+}
+
+.reviewes {
+  color: $main-accent;
+  font-size: 10px;
+  line-height: 14px;
+}

@@ -1,9 +1,10 @@
-@import "./var.scss";
-@import "./reset.scss";
-@import "./header.scss";
-@import "./card.scss";
-
-.body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(240, 240, 240);
-}
+@import "./var";
+@import "./reset";
+@import "./page";
+@import "./container";
+@import "./catalog";
+@import "./header";
+@import "./nav";
+@import "./card";
+@import "./rating";
+@import "./price";
