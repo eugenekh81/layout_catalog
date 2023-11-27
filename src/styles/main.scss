@@ -1,3 +1,10 @@
-body {
-  margin: 0;
-}
+@import "./var";
+@import "./reset";
+@import "./page";
+@import "./container";
+@import "./catalog";
+@import "./header";
+@import "./nav";
+@import "./card";
+@import "./rating";
+@import "./price";
